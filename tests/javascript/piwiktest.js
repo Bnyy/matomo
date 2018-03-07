@@ -53,7 +53,8 @@ Piwik.addPlugin('testPlugin', {
 				'_addEventListener : addEventListener,' +
 				'_prefixPropertyName : prefixPropertyName,' +
 				'_getPiwikUrlForOverlay : getPiwikUrlForOverlay, ' +
-				'_isInsideAnIframe : isInsideAnIframe' +
+				'_isInsideAnIframe : isInsideAnIframe, ' +
+				'_generateBrowserSpecificId : generateBrowserSpecificId' +
 			'}'
 		);
 	},
